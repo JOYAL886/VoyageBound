@@ -54,8 +54,8 @@ VoyageBound is built with accessibility as a core principle:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/voyagebound.git
-   cd voyagebound
+   git clone https://github.com/JOYAL886/VoyageBound.git
+   cd VoyageBound
    ```
 
 2. Install dependencies:
@@ -100,5 +100,5 @@ voyagebound/
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-[Your Name] - [Your Email]
-Project Link: [https://github.com/yourusername/voyagebound](https://github.com/yourusername/voyagebound) 
+Joyal Joseph - [Your Email]
+Project Link: [https://github.com/JOYAL886/VoyageBound](https://github.com/JOYAL886/VoyageBound) 
