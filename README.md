@@ -101,4 +101,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 Joyal Joseph - [Your Email]
-Project Link: [https://github.com/JOYAL886/VoyageBound](https://github.com/JOYAL886/VoyageBound) 
+Project Link: [https://github.com/JOYAL886/VoyageBound](https://github.com/JOYAL886/VoyageBound)
+Deployment Link: [https://ubiquitous-taiyaki-3b46c1.netlify.app](https://ubiquitous-taiyaki-3b46c1.netlify.app) 
