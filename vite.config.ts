@@ -14,7 +14,7 @@ export default defineConfig({
       output: {
         manualChunks: {
           'react-vendor': ['react', 'react-dom', 'react-router-dom'],
-          'ui-vendor': ['lucide-react'],
+          'ui-vendor': ['lucide-react', 'react-hot-toast'],
         },
       },
       external: ['react-hot-toast']
@@ -24,5 +24,5 @@ export default defineConfig({
     port: 3000,
     open: true,
   },
-  base: '/',
+  base: './',
 });
