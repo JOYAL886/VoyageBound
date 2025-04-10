@@ -71,8 +71,8 @@ VoyageBound is built with accessibility as a core principle:
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ## Deployment
-The application is deployed on [Netlify/Vercel/GitHub Pages] at:
-[Insert deployment URL here]
+The application is deployed on Netlify at:
+[https://ubiquitous-taiyaki-3b46c1.netlify.app](https://ubiquitous-taiyaki-3b46c1.netlify.app)
 
 ## Project Structure
 ```

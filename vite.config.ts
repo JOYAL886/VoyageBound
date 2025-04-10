@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import { resolve } from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -14,6 +15,14 @@ export default defineConfig({
           'ui-vendor': ['lucide-react']
         }
       }
+    },
+    assetsDir: 'assets',
+    emptyOutDir: true
+  },
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, './src'),
+      '@assets': resolve(__dirname, './src/assets')
     }
   },
   server: {
