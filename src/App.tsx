@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { AuthProvider } from './context/AuthContext';
 import { TravelProvider } from './context/TravelContext';
-import Navbar from './components/Navbar';
+import { Navbar, Footer } from './components';
 import Home from './pages/Home';
 import Destinations from './pages/Destinations';
 import Services from './pages/Services';
@@ -13,7 +13,6 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
 import NotFound from './pages/NotFound';
-import Footer from './components/Footer';
 import { Toaster } from 'react-hot-toast';
 
 // Create a client

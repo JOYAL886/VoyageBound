@@ -80,7 +80,7 @@ const Form: React.FC<FormProps> = ({
             className={`w-full px-3 py-2 border rounded-md ${
               errors[field.name]
                 ? 'border-red-500 focus:ring-red-500 focus:border-red-500'
-                : 'border-gray-300 focus:ring-primary focus:border-primary'
+                : 'border-gray-300 focus:ring-blue-500 focus:border-blue-500'
             }`}
           />
           {errors[field.name] && (
@@ -96,7 +96,7 @@ const Form: React.FC<FormProps> = ({
       ))}
       <button
         type="submit"
-        className="w-full bg-primary text-white py-2 px-4 rounded-md hover:bg-primary-dark transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+        className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
       >
         {submitText}
       </button>
