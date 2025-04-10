@@ -17,6 +17,7 @@ export default defineConfig({
           'ui-vendor': ['lucide-react'],
         },
       },
+      external: ['react-hot-toast']
     },
   },
   server: {
